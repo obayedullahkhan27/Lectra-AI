@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const HeroSection = () => {
     return (
-        <section className="wrapper mb-10 md:mb-16 pt-28">
+        <section className="mb-10 md:mb-16 pt-16">
             <div className="library-hero-card">
                 <div className="library-hero-content">
                     {/* Left Part */}
