@@ -12,6 +12,7 @@ const LoadingOverlay = () => {
                     <h2 className="loading-title">Synthesizing Your Book</h2>
                     <p className="text-[#777] text-center max-w-xs">
                         Please wait while we process your PDF and prepare your interactive literary experience.
+                        Ai Will Take Your Task.
                     </p>
                 </div>
             </div>
