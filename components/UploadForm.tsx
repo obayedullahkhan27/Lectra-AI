@@ -14,7 +14,7 @@ import FileUploader from './FileUploader';
 import VoiceSelector from './VoiceSelector';
 import LoadingOverlay from './LoadingOverlay';
 import {useAuth, useUser} from "@clerk/nextjs";
-import { toast } from 'sonner';
+import {toast} from "sonner"
 import {checkBookExists, createBook, saveBookSegments} from "@/lib/actions/book.actions";
 import {useRouter} from "next/navigation";
 import {parsePDFFile} from "@/lib/utils";
