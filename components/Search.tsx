@@ -33,7 +33,7 @@ const Search = () => {
             <div className="pl-4">
                 <SearchIcon
                     size={20}
-                    className="text-[var(--text-muted)]"
+                    className="text-(--text-muted)"
                 />
             </div>
             <Input
