@@ -12,10 +12,12 @@ const Page = async ({ searchParams }: { searchParams: Promise<{ query?: string }
 
     return (
         <main className="wrapper container">
+            
             <HeroSection />
 
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-5 mb-10">
-                <h2 className="text-3xl font-serif font-bold text-[#212a3b]">Recent Books</h2>
+                <h2 className="text-3xl font-serif font-bold text-[#212a3b]">Our Recent Book</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, natus. Aliquid corrupti labore vero ullam perferendis corporis fugiat explicabo expedita amet ex laudantium inventore saepe ad asperiores minus, quo ipsam!</p>
                 <Search />
             </div>
 
