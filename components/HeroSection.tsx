@@ -20,7 +20,7 @@ const steps = [
 const HeroSection = () => {
   return (
     <section className="w-full px-4 md:px-8 lg:px-16 py-10 md:py-16">
-      <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-slate-50 to-slate-100 shadow-xl">
+      <div className="relative overflow-hidden rounded-3xl bg-linear-to-br from-slate-50 to-slate-100 shadow-xl">
 
         {/* Background Glow */}
         <div className="absolute -top-20 -left-20 w-72 h-72 bg-blue-200 rounded-full blur-3xl opacity-30" />
